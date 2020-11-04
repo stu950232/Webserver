@@ -1,5 +1,6 @@
 all:
-	gcc -o server server-1.c
+	gcc server.c -o server
+	mkdir file
 
 clean:
 	rm server
